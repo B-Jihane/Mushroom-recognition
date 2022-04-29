@@ -198,6 +198,7 @@ if navigation == "Predictions with deep learning":
                 st.success(solution)
                 
                 
+# st.write("check out this [link](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py)")
             
             
                 
