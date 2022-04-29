@@ -42,7 +42,7 @@ if navigation == "Introduction":
                  " once the fungus is identified, inform the user about the toxicity and ",
                  "other parameters of the mushroom. It is important to identify the fungus at the outset.",
                  " Therefore, this application will allow you to identify the mushroom species of your choice.")
-        img_mushrooms = Image.open('img all.png')
+        img_mushrooms = Image.open('img_mushrooms.PNG')
         st.image(img_mushrooms, caption='Edible? or poisonous?')
 
 if navigation == "Dataset":
