@@ -197,18 +197,9 @@ if navigation == "Predictions with deep learning":
                     
                 st.success(solution)
                 
-                liste_images = []
-                st.write("Here are 3 exapmles of other mushrooms of the same specie :")
-                for i in range(3):
-                    liste_images.append(affichage_exemples(class_species[np.argmax(predictions)]))
+                
             
-                with st.spinner("Wait for it ..."):
-                    col1, col2, col3 = st.columns(3)
-                    with col1:
-                        st.image(liste_images[0], use_column_width = 'always')
-                    with col2:
-                        st.image(liste_images[1], use_column_width = 'always')
-                    with col3:
-                        st.image(liste_images[2], use_column_width = 'always')
+            
+                
                     
               
